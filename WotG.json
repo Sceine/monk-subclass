@@ -1,0 +1,183 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "WotG",
+				"abbreviation": "WotG",
+				"full": "Way of the Gundai",
+				"authors": [
+					"Brian"
+				],
+				"convertedBy": [
+					"Cael"
+				],
+				"version": "1.0",
+				"color": "0047ab"
+			}
+		]
+	},
+	"subclass": [
+		{
+			"name": "Way of the Gundai",
+			"source": "WotG",
+			"shortName": "Gundai",
+			"page": 1,
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassFeatures": [
+				"Way of the Gundai|Monk||Gundai|WotG|3",
+				"Tranquil Spirit|Monk||Gundai|WotG|3",
+				"Creative Soul|Monk||Gundai|WotG|6",
+				"Swift Retaliation|Monk||Gundai|WotG|6",
+				"Controlled Breathing|Monk||Gundai|WotG|11",
+				"Iron Will|Monk||Gundai|WotG|11",
+				"Fundamental Weapon|Monk||Gundai|WotG|11",
+				"Gundai Master|Monk||Gundai|WotG|17"
+			]
+		}
+	],
+	"subclassFeature": [
+		{
+			"name": "Way of the Gundai",
+			"source": "WotG",
+			"page": 1,
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Gundai",
+			"subclassSource": "WotG",
+			"level": 3,
+			"entries": [
+				"The Gundai Warrior Monks spend most of their lives on study, practice, and meditation. For centuries, the Gundai have practiced their ways in relative isolation. Some Gundai Warrior Monks have taken it on themselves to travel the world. They believe that meeting other people can guide them to enlightenment. Others, however, spend their entire life near the Gundai Temple. Rather than focussing on versatility, the Gundai Warrior Monk specialises in one or two weapons. Their entire life they study the minute intricacies of their weapons and forms until they become masters. When an disciple starts the Way of the Gundai, they first chooses one weapon to master. Only full fledged Warrior Monks have the strength of body and mind to expand their repertoire to a second weapon. For a Gundai Warrior Monk, their weapon is their identity. Before choosing their weapon they often spend years meditating which weapon suits them. This can start as early as childhood, but often the choice is made when the monk reaches maturity and becomes a disciple. This event is celebrated through a festival called /"Second Birth/". Gundai Warrior Monks often fight to stop evil and bring peace and prosperity to the world. However, the cruelties the Gundai people have suffered have left a mark on them. Sometimes, Gundai Warrior Monks fail to show mercy and murder their foes in a brutal frenzy.",
+				"Then a kingdom called Keoland invaded. Luckily, the Warrior of Ages had had many moons to prepare. He had their gods, the real gods, on his side. The Gundai used their own magic, their way of fighting. Even though they were outnumbered, they pushed them back. They rejoiced,  as the Gundai had defended their own land for the first time in history! The warmth of summer passed and winter came. It was the harshest storm in centuries. Many of the Gundai were forced in long meditations to preserve their energy. That was the time that the Keoland generals decided to attack. The Gundai did not have the resources to sustain a large army. They were overrun. The snow coloured red with Gundai blood. In howling winds they prayed to their gods for mercy. Their calls were answered, at the Godstones they arrived.",
+				"The God of the Dao, the broadsword. He carved into the flesh of their foes with unseen precision.",	
+				"The God of the Gun, the staff. He distracted his foes with his irregullar movements, intimidated them with his howls.",
+				"The God of the Gou, the hooked sword. He breathed flames that melted the snow and calmed the winds.",
+				"The God of the Qiang, the spear. Using movements smoother than flowing water, he outpaced his foes and carved them down.",
+				"And lastly, The Warrior of Ages himself. A master of each weapon, a god amongst men.",
+				"Once again, Gundai forces were rallied. They were fortunate enough to be able to fight alongside their gods. Their prayers had been answered. The forces of Keoland were forced back to the snow-white beaches of Shui. The Gundai were so, so close to survi- no, defeating the newcomers. Then He came. A man, easily 10 feet tall. He wielded a golden spear and buckler. His armour seemed to be made of light itself. His face was masked by a golden helmet. He slaughtered the Gundai gods."	
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Fundamental Weapon|Monk||Gundai|WotG|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Tranquil Spirit|Monk||Gundai|WotG|3"
+				}
+			]
+		},
+		{
+			"name": "Fundamental Weapon",
+			"source": "WotG",
+			"page": 1,
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Gundai",
+			"subclassSource": "WotG",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"The Gundai Warrior Monks practice four fundamental weapons: the hooked sword, the spear, the broadsword, and the staff. They are the basic weapons, of which each Gundai Warrior Monk must master one.",
+				"Each weapon has a set of specialised maneuvers. Many maneuvers enhance an attack or an action. You can only use one maneuver per attack. You learn 2 maneuvers when you choose a fundamental weapon. You learn 2 additional maneuvers at levesl 6, 11, and 17. Each time you learn a maneuver, you can replace a maneuver you already know with a different one."
+			]
+		},
+		{
+			"name": "Tranquil Spirit",
+			"source": "WotG",
+			"page": 1,
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Gundai",
+			"subclassSource": "WotG",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"You can project the tranquil spirit you have spent years perfecting onto your allies. As a bonus action, you and any creature of your choice within 10 feet of you gain temporary hit points equal to twice your monk level for 1 minute. This feature cannnot be used again until after you have finished a short or long rest."
+			]
+		},
+		{
+			"name": "Creative Soul",
+			"source": "WotG",
+			"page": 1,
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Gundai",
+			"subclassSource": "WotG",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"You gain proficiency with one artisan's tool of your choice. Whenever you start a short rest, you can decide to spend the short rest creating a work of art. After creating a work of art, you gain the benefits of a short rest and you gain a +1 bonus to any ability check you or your allies make until you finish a long rest. This bonus increases to +2 at level 11 and +4 at level 17."
+			]
+		},
+		{
+			"name": "Swift Retaliation",
+			"source": "WotG",
+			"page": 1,
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Gundai",
+			"subclassSource": "WotG",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"You move on the battlefield like flowing water; your attacks are swift and precise. As a reaction to being attacked, you can use 2 ki points to take the Attack action against the target that attacked you."
+			]
+		},
+		{
+			"name": "Controlled Breathing",
+			"source": "WotG",
+			"page": 2,
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Gundai",
+			"subclassSource": "WotG",
+			"level": 11,
+			"header": 2,
+			"entries": [
+				"Your control over your own heartbeat and breathing has reached perfection. No matter the circumstance, your breathing is regular and uninterrupted. As a reaction to failing a saving throw, you can use 2 ki points to succeed instead."
+			]
+		},
+		{
+			"name": "Iron Will",
+			"source": "WotG",
+			"page": 2,
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Gundai",
+			"subclassSource": "WotG",
+			"level": 11,
+			"header": 2,
+			"entries": [
+				"You gain the ability to steady yourself against a barrage of incoming attacks. As an action, you can use a ki point to assume a defensive stance. Until the start of your next turn, you reduce all incoming piercing, slashing, and bludgeoning damage by half your monk level (rounded down).",
+				"At the start of your next turn, you regain hit points equal to the amount of damage you reduced. You cannot use this feature again until after you have completed a short rest."
+			]
+		},
+		{
+			"name": "Fundamental Weapon",
+			"source": "WotG",
+			"page": 1,
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Gundai",
+			"subclassSource": "WotG",
+			"level": 11,
+			"header": 1,
+			"entries": [
+				"You can learn an additional Fundamental weapon."
+			]
+		},
+		{
+			"name": "Gundai Master",
+			"source": "WotG",
+			"page": 2,
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Gundai",
+			"subclassSource": "WotG",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"You reach new heights in your technique. You can infuse your weapon with controlled fury. The benefits you receive from your "Creative Soul" feature now extend to your attack rolls and saving throws. Additionally, when you hit a target with an attack using your fundamental weapon, you can use one or more ki points to empower that attack. You deal an additional damage die per ki point you expend."
+			]
+		}
+	]
+}
