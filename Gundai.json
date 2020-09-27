@@ -1,0 +1,1072 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "gundaiMonk",
+				"abbreviation": "gund",
+				"full": "Gundai Monk Subclass,
+				"authors": [
+					"Brian"
+				],
+				"version": "1.0.0",
+				"url": "https://github.com/Sceine/monk-subclass",
+				"targetSchema": "1.0.0"
+			}
+		],
+		"dateAdded": 1571000711,
+		"dateLastModified": 1571000711
+	},
+	"class": [
+		{
+			"name": "Gundai Monk Subclass",
+			"source": "Gundai",
+			"hd": {
+				"number": 1,
+				"faces": 8
+			},
+			"proficiency": [
+				"str",
+				"dex"
+			],
+			"startingProficiencies": {
+				"weapons": [
+					"simple",
+					"shortswords"
+				],
+				"tools": [
+					"any one type of artisan's tools or any one {@item musical instrument|PHB} of your choice"
+				],
+				"skills": [
+					{
+						"choose": {
+							"from": [
+								"acrobatics",
+								"athletics",
+								"history",
+								"insight",
+								"religion",
+								"stealth"
+							],
+							"count": 2
+						}
+					}
+				]
+			},
+			"startingEquipment": {
+				"additionalFromBackground": true,
+				"default": [
+					"(a) a {@item shortsword|phb} or (b) any {@filter simple weapon|items|source=phb|category=basic|type=simple weapon}",
+					"(a) a {@item dungeoneer's pack|phb} or (b) an {@item explorer's pack|phb}",
+					"10 {@item dart|phb|darts}"
+				],
+				"goldAlternative": "{@dice 5d4|5d4|Starting Gold}",
+				"defaultData": [
+					{
+						"a": [
+							"shortsword|phb"
+						],
+						"b": [
+							{
+								"equipmentType": "weaponSimple"
+							}
+						]
+					},
+					{
+						"a": [
+							"dungeoneer's pack|phb"
+						],
+						"b": [
+							"explorer's pack|phb"
+						]
+					},
+					{
+						"_": [
+							{
+								"item": "dart|phb",
+								"count": 10
+							}
+						]
+					}
+				]
+			},
+			"multiclassing": {
+				"requirements": {
+					"dex": 13,
+					"wis": 13
+				},
+				"proficienciesGained": {
+					"weapons": [
+						"simple",
+						"shortswords"
+					]
+				}
+			},
+			"classTableGroups": [
+				{
+					"colLabels": [
+						"Martial Arts",
+						"Ki Points",
+						"Unarmored Movement"
+					],
+					"rows": [
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 4
+									}
+								]
+							},
+							0,
+							{
+								"type": "bonusSpeed",
+								"value": 0
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 4
+									}
+								]
+							},
+							2,
+							{
+								"type": "bonusSpeed",
+								"value": 10
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 4
+									}
+								]
+							},
+							3,
+							{
+								"type": "bonusSpeed",
+								"value": 10
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 4
+									}
+								]
+							},
+							4,
+							{
+								"type": "bonusSpeed",
+								"value": 10
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 6
+									}
+								]
+							},
+							5,
+							{
+								"type": "bonusSpeed",
+								"value": 10
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 6
+									}
+								]
+							},
+							6,
+							{
+								"type": "bonusSpeed",
+								"value": 15
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 6
+									}
+								]
+							},
+							7,
+							{
+								"type": "bonusSpeed",
+								"value": 15
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 6
+									}
+								]
+							},
+							8,
+							{
+								"type": "bonusSpeed",
+								"value": 15
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 6
+									}
+								]
+							},
+							9,
+							{
+								"type": "bonusSpeed",
+								"value": 15
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 6
+									}
+								]
+							},
+							10,
+							{
+								"type": "bonusSpeed",
+								"value": 20
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 8
+									}
+								]
+							},
+							11,
+							{
+								"type": "bonusSpeed",
+								"value": 20
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 8
+									}
+								]
+							},
+							12,
+							{
+								"type": "bonusSpeed",
+								"value": 20
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 8
+									}
+								]
+							},
+							13,
+							{
+								"type": "bonusSpeed",
+								"value": 20
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 8
+									}
+								]
+							},
+							14,
+							{
+								"type": "bonusSpeed",
+								"value": 25
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 8
+									}
+								]
+							},
+							15,
+							{
+								"type": "bonusSpeed",
+								"value": 25
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 8
+									}
+								]
+							},
+							16,
+							{
+								"type": "bonusSpeed",
+								"value": 25
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 10
+									}
+								]
+							},
+							17,
+							{
+								"type": "bonusSpeed",
+								"value": 25
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 10
+									}
+								]
+							},
+							18,
+							{
+								"type": "bonusSpeed",
+								"value": 30
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 10
+									}
+								]
+							},
+							19,
+							{
+								"type": "bonusSpeed",
+								"value": 30
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 10
+									}
+								]
+							},
+							20,
+							{
+								"type": "bonusSpeed",
+								"value": 30
+							}
+						]
+					]
+				}
+			],
+			"classFeatures": [
+				"Unarmored Defense|Gundai||1",
+				"Martial Arts|Gundai||1",
+				"Ki|Gundai||2",
+				"Unarmored Movement|Gundai||2",
+				"Deflect Missiles|Gundai||3",
+				"Tranquil Spirit|Gundai||3",
+				{
+					"classFeature": "Fundamental Weapon maneuvers|Gundai||3",
+					"gainSubclassFeature": true
+				},
+				"Ability Score Improvement|Gundai||4",
+				"Slow Fall|Gundai||4",
+				"Extra Attack|Gundai||5",
+				"Stunning Strike|Gundai||5",
+				"Ki-Empowered Strikes|Gundai||6",
+				"Creative Soul|Gundai||6",
+				"Swift Retaliation|Gundai||6",
+				{
+					"classFeature": "Fundamental Weapon maneuvers|Gundai||6",
+					"gainSubclassFeature": true
+				},
+				"Evasion|Gundai||7",
+				"Stillness of Mind|Gundai||7",
+				"Ability Score Improvement|Gundai||8",
+				"Unarmored Movement improvement|Gundai||9",
+				"Purity of Body|Gundai||10",
+				{
+					"classFeature": "Fundamental Weapon maneuvers|Gundai||11",
+					"gainSubclassFeature": true
+				},
+				"Controlled Breathing|Gundai|11",
+				"Iron Will|Gundai||11",
+				"Ability Score Improvement|Gundai||12",
+				"Tongue of the Sun and Moon|Gundai||13",
+				"Diamond Soul|Gundai||14",
+				"Timeless Body|Gundai||15",
+				"Ability Score Improvement|Gundai||16",
+				"Gundai Master|Gundai||17"
+				{
+					"classFeature": "Fundamental Weapon maneuvers|Gundai||17",
+					"gainSubclassFeature": true
+				},
+				"Empty Body|Gundai||18",
+				"Ability Score Improvement|Gundai||19",
+				"Perfect Self|Gundai||20"
+			],
+			"subclassTitle": "Fundamental Weapon maneuvers",
+			"subclasses": [
+				{
+					"name": "Staff (Gun)",
+					"source": "Gundai",
+					"subclassFeatures": [
+						"Monkey Staff Maneuvers|Gundai|Gun|Gundai|3",
+						"Extra Monkey Staff Maneuvers|Gundai|Gun|Gundai|6",
+						"Extra Monkey Staff Maneuvers|Gundai|Gun|Gundai|11",
+						"Extra Monkey Staff Maneuvers|Gundai|Gun|Gundai|17",
+					],
+					"shortName": "Gun"
+				},
+				{
+					"name": "Broadsword (Dao)",
+					"source": "Gundai",
+					"subclassFeatures": [
+						"Willow-Leaf Saber Maneuvers|Gundai|Dao|Gundai|3",
+						"Extra Willow-Leaf Saber Maneuvers|Gundai|Dao|Gundai|6",
+						"Extra Willow-Leaf Saber Maneuvers|Gundai|Dao|Gundai|11",
+						"Extra Willow-Leaf Saber Maneuvers|Gundai|Dao|Gundai|17",
+					],
+					"shortName": "Dao"
+				},
+				{
+					"name": "Spear (Qiang)",
+					"source": "Gundai",
+					"subclassFeatures": [
+						"Crescent Moon and Sneak Spear Maneuvers|Gundai|Qiang|Gundai|3",
+						"Extra Crescent Moon and Sneak Spear|Gundai|Qiang|Gundai|6",
+						"Extra Crescent Moon and Sneak Spear|Gundai|Qiang|Gundai|11",
+						"Extra Crescent Moon and Sneak Spear|Gundai|Qiang|Gundai|17",
+					],
+					"shortName": "Qiang"
+				},
+				{
+					"name": "Hooked Swords (Gou)",
+					"source": "Gundai",
+					"subclassFeatures": [
+						"Dragon and Phoenix Maneuvers|Gundai|Gou|Gundai|3",
+						"Extra Dragon and Phoenix Maneuvers|Gundai|Gou|Gundai|6",
+						"Extra Dragon and Phoenix Maneuvers|Gundai|Gou|Gundai|11",
+						"Extra Dragon and Phoenix Maneuvers|Gundai|Gou|Gundai|17",
+					],
+					"shortName": "Gou"
+				}
+			],
+			"fluff": [
+				{
+					"entries": [
+						"Marred but resolute, his grimacing face dripping with sweat, a half-orc reddens a finger across his wounds to draw a glowing, ruby glyph in the air. He grips the weightless, completed sigil, twisting it to unleash dark magical energies that fire forward, cursing the stalking behemoth from within its own veins to better even the odds.",
+						"A mysterious half-elf swathed in a worn cloak and rugged leather armor carefully investigates a grizzly scene off the roadway, her eyes flashing with recognition as she meditates on the remnants of the massacre.The survivor who warily hired her with draws with a jump as the half-elf suddenly shoots to her feet, sure in the knowledge of the culprit, where it calls home, and how little time there is to find it.",
+						"Stepping into the lightless chambers of ancient dust and lingering whispers, the halfling's nose picks up the pungent smell of imminent danger as she hears the scraping of bone and claw on nearby stone. She winces as she runs her blade across her palm, the steel transmuting her blood into glowing runes of powerful magic, her sword suddenly engulfed in arcane flames, eager to brand and burn the flesh of her enemies.",
+						"Often feared or misunderstood, and driven by an unending drive to destroy the wicked, blood hunters are clever, arcane warriors who have bound their essence to the dark creatures they hunt to better stalk and survive their prey. Armed with the rites of forbidden blood magic and a willingness to sacrifice their own vitality and humanity for the cause, they protect the realms from the shadows, ever vigilant to avoid becoming the same monsters they choose to hunt.",
+						{
+							"name": "Sacrifice to Preserve Life",
+							"entries": [
+								"While most of the classic schools of magical study are well known and widely respected, the less refined and macabre incantations of Hemocraft have long been forbidden and lost to most of the civilized world. Blood Hunters have reclaimed these techniques away from the judging eyes of society, finding blood magic's esoteric nature effective against the evils that often defy the divine powers that historically hold the line.",
+								"Through careful study and practice, blood hunters have honed the rites of hemocraft into their combat prowess, forfeiting a facet of their health to infuse their weapons with powerful blood magic and summoning the elements to envelop their strikes.",
+								"They can sear an arcane brand into the body of their quarry that hinders their foe's abilities and punishes their aggression, or call blood curses upon their enemies, manipulating their bodies from the inside. Willing to suffer whatever it takes to achieve victory, these adept warriors have forged themselves into a potent force against the terrors that threaten the innocent."
+							]
+						},
+						{
+							"name": "A Monster to Fight Monsters",
+							"entries": [
+								"Whether driven by the wish to make a difference in a dangerous world, the need to take vengeance for a great wrong they have suffered, being inspired by witnessing the strange and powerful techniques of another blood hunter in person, or just seeking a place to belong in an uncaring world, the reasons one may take up the Hunter's Bane and choose this life are many and varied. In joining an order of blood hunters, one is also joining a tight family bound by service to each other and the common cause. For many, this is the only family they have known or have left, so the kinship felt between members of an order is a bond neigh unbreakable.",
+								"Beyond the boundaries of the order, however, the life of a blood hunter is often not an easy one. The rituals of the Hunter's Bane regularly leave one visibly changed and prone to unsettle common folk, and the witnessing of hemocraft can invoke a superstitious fear from even the most learned scholar. While some societies have come to accept the good deeds of the orders, many blood hunters publicly hide their nature unless absolutely necessary, feeling more comfortable in the wilds and wastes of the world where the Orders commonly train. Even so, the best work a blood hunter can do usually involves the poor and defenseless on the outskirts of society, those prone to the corrupting touch of fiends and dark intension. Braving the threat of vilification, these dark protectors wade through civilization, earning coin as mercenaries or bounty hunters, ever watching for the signs of something more nefarious beneath the surface.",
+								"In choosing this path, a blood hunter has irrevocably given a part of themselves to their cause, physically, emotionally, and sometimes morally. The orders of blood hunters practice their own unique ideals and methods, often employing techniques with dark origins that test the strength and will of these guardians. Many wrestle with the fear of losing this struggle, so a life of discipline and vigilance drives their travels as they wander the country side in search of like-minded adventurers and whispers of dark deeds afoot."
+							]
+						},
+						{
+							"name": "Creating a Blood Hunter",
+							"entries": [
+								"As you create a blood hunter, the most important aspects of your character are why you were driven to this lifestyle, and why do you seek to give up everything to wallow in the dark with the evils you hunt? Did you lose a loved one to a fiendish beast and now wish to prevent others from suffering the same fate? Do you seek a sense of purpose and security, and found this among the order that has taken you in? Have you always carried a seed of darkness within you, and seek kin to watch over you and prevent you succumbing to it? Were you once a holy warrior who strayed from his faith and was cast out, but still seek to give yourself to the cause of protecting the innocent? Or are you a criminal with a dark past seeking to make amends, taking this life as a path of penance?",
+								"What is your relationship with the powers of hemocraft and the abilities it promises to grant you as you step closer to its mastery? Do you respect and fear the ancient power that surges through your veins, using them only when necessary? Do you relish in the strength it offers you, embracing your gifts and using them freely? Are you worried the superstitions are right, and this power will eventually turn you into one of the monsters you hunt? Or has your study instilled you with the confident control of mind over matter, certain you can bend these gifts to bring a brighter dawn?",
+								"Consider too that while a blood hunter belongs to an order, many strike out on their own to do their best work. What made you leave the comfort of your order? Do you intend to return, or have you decided you have more to learn in the world beyond? What do you seek in other adventurers that can help you meet your goals?",
+								"While most blood hunters follow a path of good or neutrality in their pursuits, some have fallen to the dark, seductive side of hemo craft and use their abilities for selfish and evil purposes. These deviants are always thrown from the order, and often hunted along with the creatures they once trained to fell."
+							]
+						},
+						{
+							"name": "Quick Build",
+							"entries": [
+								"You can make a blood hunter quickly by following these suggestions. First, make Strength or Dexterity your highest ability score, depending on whether you want to focus on melee weapons, or archery (or finesse weapons). Make Intelligence your next highest if you plan to focus on the potency of blood curses and mystical power. Choose a higher Constitution next, as you want to have extra hit points to burn on your crimson rite or amplifying blood curses. Then, select the {@background urchin} or {@background soldier} background."
+							]
+						},
+						{
+							"name": "Blood Hunter Multiclassing",
+							"entries": [
+								"Should you wish to multiclass into a blood hunter, the prerequisites and proficiencies gained are listed below.",
+								{
+									"name": "Blood Hunter Multiclassing Prerequisites",
+									"entries": [
+										{
+											"name": "Ability Score Minimum",
+											"entries": [
+												"Strength 13 or Dexterity 13, and Intelligence 13"
+											]
+										}
+									]
+								},
+								{
+									"name": "Blood Hunter Multiclassing Proficiencies",
+									"entries": [
+										{
+											"name": "Proficiencies Gained",
+											"entries": [
+												"Light armor, medium armor, shields, simple weapons, martial weapons, alchemical supplies."
+											]
+										}
+									]
+								},
+								{
+									"name": "Blood Hunter Multiclassing with Warlock",
+									"entries": [
+										{
+											"name": "Proficiencies Gained",
+											"entries": [
+												"If multiclassing Order of the Profane Soul with Warlock levels, add a third of your blood hunter levels (rounded down) to your Warlock level and consult the Warlock progression table in the Player's Hand book for total Spell Slots, Cantrips known, and Spell Slot Level."
+											]
+										}
+									]
+								}
+							]
+						}
+					],
+					"name": "Blood Hunter",
+					"type": "section",
+					"page": 1
+				}
+			]
+		}
+	],
+	"classFeature": [
+		{
+			"name": "Martial Arts",
+			"source": "Gundai",
+			"className": "Gundai",
+			"classSource": "Gundai",
+			"level": 1,
+			"entries": [
+				"Your practice of martial arts gives you mastery of combat styles that use unarmed strikes and monk weapons, which are shortswords and any simple melee weapons that don't have the two-handed or heavy property.",
+				"You gain the following benefits while you are unarmed or wielding only monk weapons and you aren't wearing armor or wielding a shield.",
+				{
+					"type": "list",
+					"items": [
+						"You can use Dexterity instead of Strength for the attack and damage rolls of your unarmed strikes and monk weapons.",
+						"You can roll a {@dice d4} in place of the normal damage of your unarmed strike or monk weapon. This die changes as you gain monk levels, as shown in the Martial Arts column of the Monk table.",
+						"When you use the {@action Attack} action with an unarmed strike or a monk weapon on your turn, you can make one unarmed strike as a bonus action. For example, if you take the {@action Attack} action and attack with a quarterstaff, you can also make an unarmed strike as a bonus action, assuming you haven't already taken a bonus action this turn."
+					]
+				},
+				"Certain monasteries use specialized forms of the monk weapons. For example, you might use a club that is two lengths of wood connected by a short chain (called a nunchaku) or a sickle with a shorter, straighter blade (called a kama)."
+			]
+		},
+		{
+			"name": "Monk Weapons",
+			"source": "Gundai",
+			"className": "Gundai",
+			"classSource": "Gundai",
+			"level": 1,
+			"entries": [
+				"{@i 1st-level monk feature (enhances Martial Arts)}",
+				"You can use this feature to define your monk weapons, rather than using the definition in Martial Arts.",
+				"You practice your martial arts with specially chosen weapons, which become monk weapons for you. You can choose a number of weapons to be your monk weapons equal to 5 + your Wisdom modifier (minimum of five weapons). The chosen weapons must each meet the following criteria:",
+				{
+					"type": "list",
+					"items": [
+						"The weapon must be a simple or martial weapon.",
+						"You must be proficient with the weapon.",
+						"The weapon must lack these properties: heavy, special, or two-handed."
+					]
+				}
+			]
+		},
+		{
+			"name": "Unarmored Defense",
+			"source": "Gundai",
+			"className": "Gundai",
+			"classSource": "Gundai",
+			"level": 1,
+			"entries": [
+				"Beginning at 1st level, while you are wearing no armor and not wielding a shield, your AC equals 10 + your Dexterity modifier + your Wisdom modifier."
+			]
+		},
+		{
+			"name": "Ki",
+			"source": "Gundai",
+			"className": "Gundai",
+			"classSource": "Gundai",
+			"level": 2,
+			"entries": [
+				"Starting at 2nd level, your training allows you to harness the mystic energy of ki. Your access to this energy is represented by a number of ki points. Your monk level determines the number of points you have, as shown in the Ki Points column of the Monk table.",
+				"You can spend these points to fuel various ki features. You start knowing three such features: Flurry of Blows, Patient Defense, and Step of the Wind. You learn more ki features as you gain levels in this class.",
+				"When you spend a ki point, it is unavailable until you finish a short or long rest, at the end of which you draw all of your expended ki back into yourself. You must spend at least 30 minutes of the rest meditating to regain your ki points.",
+				"Some of your ki features require your target to make a saving throw to resist the feature's effects. The saving throw DC is calculated as follows:",
+				{
+					"type": "abilityDc",
+					"name": "Ki",
+					"attributes": [
+						"wis"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Flurry of Blows",
+					"entries": [
+						"Immediately after you take the {@action Attack} action on your turn, you can spend 1 ki point to make two unarmed strikes as a bonus action."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Patient Defense",
+					"entries": [
+						"You can spend 1 ki point to take the {@action Dodge} action as a bonus action on your turn."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Step of the Wind",
+					"entries": [
+						"You can spend 1 ki point to take the {@action Disengage} or {@action Dash} action as a bonus action on your turn, and your jump distance is doubled for the turn."
+					]
+				}
+			]
+		},
+		{
+			"name": "Unarmored Movement",
+			"source": "Gundai",
+			"className": "Gundai",
+			"classSource": "Gundai",
+			"level": 2,
+			"entries": [
+				"Starting at 2nd level, your speed increases by 10 feet while you are not wearing armor or wielding a shield. This bonus increases when you reach certain monk levels, as shown in the Monk table.",
+				"At 9th level, you gain the ability to move along vertical surfaces and across liquids on your turn without falling during the move."
+			]
+		},
+		{
+			"name": "Deflect Missiles",
+			"source": "PHB",
+			"page": 76,
+			"srd": true,
+			"className": "Monk",
+			"classSource": "PHB",
+			"level": 3,
+			"entries": [
+				"Starting at 3rd level, you can use your reaction to deflect or catch the missile when you are hit by a ranged weapon attack. When you do so, the damage you take from the attack is reduced by {@dice 1d10} + your Dexterity modifier + your monk level.",
+				"If you reduce the damage to 0, you can catch the missile if it is small enough for you to hold in one hand and you have at least one hand free. If you catch a missile in this way, you can spend 1 ki point to make a ranged attack (range 20/60 feet) with the weapon or piece of ammunition you just caught, as part of the same reaction. You make this attack with proficiency, regardless of your weapon proficiencies, and the missile counts as a monk weapon for the attack."
+			]
+		},
+		{
+			"name": "Tranquil Spirit",
+			"source": "Gundai",
+			"className": "Gundai",
+			"classSource": "Gundai",
+			"level": 3,
+			"entries": [
+				"You can project the tranquil spirit you have spent years perfecting onto your allies. As a bonus action, you and any creature of your choice within 10 feet of you gain temporary hit points equal to twice your monk level for 1 minute. This feature cannnot be used again until after you have finished a short or long rest."
+			]
+		},
+		{
+			"name": "Fundamental Weapon maneuvers",
+			"source": "Gundai",
+			"className": "Gundai",
+			"classSource": "Gundai",
+			"level": 3,
+			"entries": [
+				"When you reach 3rd level, you commit yourself to a monastic tradition, chosen from the list of available traditions. Your tradition grants you features at 3rd level and again at 6th, 11th, and 17th level."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "Gundai",
+			"className": "Gundai",
+			"classSource": "Gundai",
+			"level": 4,
+			"entries": [
+				"When you reach 4th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+			]
+		},
+		{
+			"name": "Slow Fall",
+			"source": "Gundai",
+			"className": "Gundai",
+			"classSource": "Gundai",
+			"level": 4,
+			"entries": [
+				"Beginning at 4th level, you can use your reaction when you fall to reduce any falling damage you take by an amount equal to five times your monk level."
+			]
+		},
+		{
+			"name": "Extra Attack",
+			"source": "Gundai",
+			"className": "Gundai",
+			"classSource": "Gundai",
+			"level": 5,
+			"entries": [
+				"Beginning at 5th level, you can attack twice, instead of once, whenever you take the {@action Attack} action on your turn."
+			]
+		},
+		{
+			"name": "Stunning Strike",
+			"source": "Gundai",
+			"className": "Gundai",
+			"classSource": "Gundai",
+			"level": 5,
+			"entries": [
+				"Starting at 5th level, you can interfere with the flow of ki in an opponent's body. When you hit another creature with a melee weapon attack, you can spend 1 ki point to attempt a stunning strike. The target must succeed on a Constitution saving throw or be {@condition stunned} until the end of your next turn."
+			]
+		},
+		{
+			"name": "Ki-Empowered Strikes",
+			"source": "Gundai",
+			"className": "Gundai",
+			"classSource": "Gundai",
+			"level": 6,
+			"entries": [
+				"Starting at 6th level, your unarmed strikes count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage."
+			]
+		},
+		{
+			"name": "Creative Soul",
+			"source": "Gundai",
+			"className": "Gundai",
+			"classSource": "Gundai",
+			"level": 6,
+			"entries": [
+				"You gain proficiency with one artisan's tool of your choice. Whenever you start a short rest, you can decide to spend the short rest creating a work of art. After creating a work of art, you gain the benefits of a short rest and you gain a +1 bonus to any ability check you or your allies make until you finish a long rest. This bonus increases to +2 at level 11 and +4 at level 17."
+			]
+		},
+		{
+			"name": "Swift Retaliation",
+			"source": "Gundai",
+			"className": "Gundai",
+			"classSource": "Gundai",
+			"level": 6,
+			"entries": [
+				"You move on the battlefield like flowing water; your attacks are swift and precise. As a reaction to being attacked, you can use 2 ki points to take the Attack action against the target that attacked you."
+			]
+		},
+		{
+			"name": "Monastic Tradition feature",
+			"source": "Gundai",
+			"className": "Gundai",
+			"classSource": "Gundai",
+			"level": 6,
+			"entries": [
+				"At 6th level, you gain one feature granted by your Monastic Tradition."
+			]
+		},
+		{
+			"name": "Evasion",
+			"source": "Gundai",
+			"className": "Gundai",
+			"classSource": "Gundai",
+			"level": 7,
+			"entries": [
+				"At 7th level, your instinctive agility lets you dodge out of the way of certain area effects, such as a blue dragon's lightning breath or a {@spell fireball} spell. When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail."
+			]
+		},
+		{
+			"name": "Stillness of Mind",
+			"source": "Gundai",
+			"className": "Gundai",
+			"classSource": "Gundai",
+			"level": 7,
+			"entries": [
+				"Starting at 7th level, you can use your action to end one effect on yourself that is causing you to be {@condition charmed} or {@condition frightened}."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "Gundai",
+			"className": "Gundai",
+			"classSource": "Gundai",
+			"level": 8,
+			"entries": [
+				"When you reach 8th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+			]
+		},
+		{
+			"name": "Unarmored Movement improvement",
+			"source": "Gundai",
+			"className": "Gundai",
+			"classSource": "Gundai",
+			"level": 9,
+			"entries": [
+				"At 9th level, you gain the ability to move along vertical surfaces and across liquids on your turn without falling during the move."
+			]
+		},
+		{
+			"name": "Purity of Body",
+			"source": "Gundai",
+			"className": "Gundai",
+			"classSource": "Gundai",
+			"level": 10,
+			"entries": [
+				"At 10th level, your mastery of the ki flowing through you makes you immune to disease and poison."
+			]
+		},
+		{
+			"name": "Controlled Breathing",
+			"source": "Gundai",
+			"className": "Gundai",
+			"classSource": "Gundai",
+			"level": 11,
+			"entries": [
+				"Your control over your own heartbeat and breathing has reached perfection. No matter the circumstance, your breathing is regular and uninterrupted. As a reaction to failing a saving throw, you can use 2 ki points to succeed instead."
+			]
+		},
+		{
+			"name": "Iron Will",
+			"source": "Gundai",
+			"className": "Gundai",
+			"classSource": "Gundai",
+			"level": 11,
+			"entries": [
+				"You gain the ability to steady yourself against a barrage of incoming attacks. As an action, you can use a ki point to assume a defensive stance. Until the start of your next turn, you reduce all incoming piercing, slashing, and bludgeoning damage by half your monk level (rounded down).",
+				"At the start of your next turn, you regain hit points equal to the amount of damage you reduced. You cannot use this feature again until after you have completed a short rest."
+			]
+		{
+			"name": "Fundamental Weapon maneuver",
+			"source": "Gundai",
+			"className": "Gundai",
+			"classSource": "Gundai",
+			"level": 11,
+			"entries": [
+				"At 11th level, you gain one feature granted by your Monastic Tradition."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "Gundai",
+			"className": "Gundai",
+			"classSource": "Gundai",
+			"level": 12,
+			"entries": [
+				"When you reach 12th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+			]
+		},
+		{
+			"name": "Tongue of the Sun and Moon",
+			"source": "Gundai",
+			"className": "Gundai",
+			"classSource": "Gundai",
+			"level": 13,
+			"entries": [
+				"Starting at 13th level, you learn to touch the ki of other minds so that you understand all spoken languages. Moreover, any creature that can understand a language can understand what you say."
+			]
+		},
+		{
+			"name": "Diamond Soul",
+			"source": "Gundai",
+			"className": "Gundai",
+			"classSource": "Gundai",
+			"level": 14,
+			"entries": [
+				"Beginning at 14th level, your mastery of ki grants you proficiency in all saving throws.",
+				"Additionally, whenever you make a saving throw and fail, you can spend 1 ki point to reroll it and take the second result."
+			]
+		},
+		{
+			"name": "Timeless Body",
+			"source": "Gundai",
+			"className": "Gundai",
+			"classSource": "Gundai",
+			"level": 15,
+			"entries": [
+				"At 15th level, your ki sustains you so that you suffer none of the frailty of old age, and you can't be aged magically. You can still die of old age, however. In addition, you no longer need food or water."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "Gundai",
+			"className": "Gundai",
+			"classSource": "Gundai",
+			"level": 16,
+			"entries": [
+				"When you reach 16th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+			]
+		},
+		{
+			"name": "Gundai Master",
+			"source": "Gundai",
+			"className": "Gundai",
+			"classSource": "Gundai",
+			"level": 17,
+			"entries": [
+				"You reach new heights in your technique. You can infuse your weapon with controlled fury. The benefits you receive from your "Creative Soul" feature now extend to your attack rolls and saving throws. Additionally, when you hit a target with an attack using your fundamental weapon, you can use one or more ki points to empower that attack. You deal an additional damage die per ki point you expend."
+			]
+		},
+		{
+			"name": "Fundamental Weapon maneuver",
+			"source": "Gundai",
+			"className": "Gundai",
+			"classSource": "Gundai",
+			"level": 17,
+			"entries": [
+				"At 17th level, you gain one feature granted by your Monastic Tradition."
+			]
+		},
+		{
+			"name": "Empty Body",
+			"source": "Gundai",
+			"className": "Gundai",
+			"classSource": "Gundai",
+			"level": 18,
+			"entries": [
+				"Beginning at 18th level, you can use your action to spend 4 ki points to become {@condition invisible} for 1 minute. During that time, you also have resistance to all damage but force damage.",
+				"Additionally, you can spend 8 ki points to cast the {@spell astral projection} spell, without needing material components. When you do so, you can't take any other creatures with you."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "Gundai",
+			"className": "Gundai",
+			"classSource": "Gundai",
+			"level": 19,
+			"entries": [
+				"When you reach 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+			]
+		},
+		{
+			"name": "Perfect Self",
+			"source": "Gundai",
+			"className": "Gundai",
+			"classSource": "Gundai",
+			"level": 20,
+			"entries": [
+				"At 20th level, when you roll for initiative and have no ki points remaining, you regain 4 ki points."
+			]
+		}
+	],
+	"subclassFeature": [
+		{
+			"name": "Staff (Gun)",
+			"source": "Gundai",
+			"className": "Gundai",
+			"classSource": "Gundai",
+			"subclassShortName": "Gun",
+			"subclassSource": "Gundai",
+			"level": 3,
+			"entries": [
+				"The staff is one of the most versatile weapons in the Gundai repertoire. It can be used to defend, attack, move, and confuse your opponent. You gain proficiency with the Monkey Staff, a unique wepaon not commonly found in Starfall.",
+				"You must declare a monkey staff maneuver before you make the attack. Only Strike maneuvers can be performed during opportunity attacks."
+			]
+		},
+		{
+			"name": "Broadsword (Dao)",
+			"source": "Gundai",
+			"className": "Gundai",
+			"classSource": "Gundai",
+			"subclassShortName": "Dao",
+			"subclassSource": "Gundai",
+			"level": 3,
+			"entries": [
+				"The staff is one of the most versatile weapons in the Gundai repertoire. It can be used to defend, attack, move, and confuse your opponent. You gain proficiency with the Monkey Staff, a unique wepaon not commonly found in Starfall.",
+				"You must declare a monkey staff maneuver before you make the attack. Only Strike maneuvers can be performed during opportunity attacks."
+			]
+		},
+		{
+			"name": "Spear (Qiang)",
+			"source": "Gundai",
+			"className": "Gundai",
+			"classSource": "Gundai",
+			"subclassShortName": "Qiang",
+			"subclassSource": "Gundai",
+			"level": 3,
+			"entries": [
+				"The staff is one of the most versatile weapons in the Gundai repertoire. It can be used to defend, attack, move, and confuse your opponent. You gain proficiency with the Monkey Staff, a unique wepaon not commonly found in Starfall.",
+				"You must declare a monkey staff maneuver before you make the attack. Only Strike maneuvers can be performed during opportunity attacks."
+			]
+		},
+		{
+			"name": "Hooked Swords (Gou)",
+			"source": "Gundai",
+			"className": "Gundai",
+			"classSource": "Gundai",
+			"subclassShortName": "Gou",
+			"subclassSource": "Gundai",
+			"level": 3,
+			"entries": [
+				"The staff is one of the most versatile weapons in the Gundai repertoire. It can be used to defend, attack, move, and confuse your opponent. You gain proficiency with the Monkey Staff, a unique wepaon not commonly found in Starfall.",
+				"You must declare a monkey staff maneuver before you make the attack. Only Strike maneuvers can be performed during opportunity attacks."
+			]
+		}
+	]
+}
